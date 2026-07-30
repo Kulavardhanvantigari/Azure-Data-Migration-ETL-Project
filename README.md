@@ -149,6 +149,37 @@ Tables:
 - SQL
 - Stored Procedures
 - Microsoft Entra ID
+- Git & Github
+
+---
+
+## Project Flow
+
+1. Source CSV files are uploaded to the Landing container in Azure Data Lake Storage Gen2.
+2. Azure Data Factory dynamically reads metadata and loads the data into Bronze tables.
+3. Silver stored procedures clean, validate, and transform the data.
+4. Gold stored procedures create business-ready reporting tables.
+5. Audit, Logging, and Watermark tables monitor and track every pipeline execution.
+6. The Gold layer is ready for Power BI dashboards and business reporting.
+
+---
+
+## Project Structure
+
+
+Azure-Data-Migration-ETL-Project
+│
+├── README.md
+├── Architecture
+├── Screenshots
+└── SQL Scripts
+    ├── Audit
+    ├── Logging
+    ├── Watermark
+    ├── Bronze
+    ├── Silver
+    └── Gold
+
 
 ---
 
@@ -165,3 +196,4 @@ Tables:
 # 👨‍💻 Author
 
 Kulavardhan Vantigari
+Azure Data Engineering Portfolio Project
