@@ -193,7 +193,8 @@ Azure-Data-Migration-ETL-Project
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-Kulavardhan Vantigari
+**Kulavardhan Vantigari**
+
 Azure Data Engineering Portfolio Project
